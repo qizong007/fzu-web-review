@@ -1,0 +1,72 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width:960px;
+}
+
+#wrap {
+    margin:0 auto; /* 居中 */
+    width:960px;
+    height:700px;
+}
+
+#header {
+    height: 10%;
+    background-color: salmon;
+}
+
+#header .h1 {
+    padding: 5px;
+}
+
+#nav {
+    height: 10%;
+    background-color: yellow;
+}
+
+#nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+#nav li{
+    display:inline;
+    margin:0;
+    padding:0;
+}
+
+#left {
+    height: 70%;
+    width: 200px;
+    float: left;
+    background-color: red;
+}
+
+#content {
+    height: 70%;
+    width: 600px;
+    float: left;
+    background-color: green;
+}
+
+#content .h2,.h3,.p{
+    padding: 0px, 10px;
+}
+
+#right {
+    height: 70%;
+    width: 160px;
+    float: left;
+    background-color: blue;
+}
+
+#footer {
+    height: 10%;
+    clear: both; /* 页脚下沉 */
+    background-color: coral;
+}
+
